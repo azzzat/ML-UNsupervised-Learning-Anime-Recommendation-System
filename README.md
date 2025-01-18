@@ -2,11 +2,11 @@
 
 This repository contains an end-to-end machine learning pipeline for an anime recommendation system. The project employs **Singular Value Decomposition (SVD)** and **K-Means clustering** to predict and recommend anime to users based on their ratings and preferences. The dataset contains ratings from 73,516 users for over 12,000 anime.
 
-🧠 **Problem Statement**
+## 🧠 **Problem Statement**
 
 The goal of this project is to create a recommendation system that suggests anime to users based on their ratings. The data consists of user ratings for various anime, and the challenge involves predicting ratings for anime the user hasn't watched yet. The system uses matrix factorization and clustering techniques to provide recommendations tailored to user preferences.
 
-⚙️ **Key Features**
+## ⚙️ **Key Features**
 
 - **Exploratory Data Analysis (EDA)**:
     - Distribution analysis of anime ratings.
@@ -29,12 +29,12 @@ The goal of this project is to create a recommendation system that suggests anim
     - **SVD-based Recommendations**: Suggest anime based on predicted ratings.
     - **Cluster-based Recommendations**: Recommend anime based on user’s assigned cluster.
 
-🔍 **Results**
+## 🔍 **Results**
 
 - **SVD Model** achieved an RMSE of 0.0769, indicating effective prediction of anime ratings.
 - **K-Means Clustering** achieved an RMSE of 0.29, with more interpretable results and group-based recommendations.
 
-💻 **Tools & Libraries**
+## 🛠️ **Tools & Libraries**
 
 - **Python**: Core programming language used for the project.
 - **Pandas, NumPy**: For data manipulation and preprocessing.
@@ -42,10 +42,3 @@ The goal of this project is to create a recommendation system that suggests anim
 - **Surprise**: For SVD-based collaborative filtering.
 - **Matplotlib, Seaborn**: For data visualization.
 - **GridSearchCV**: For hyperparameter optimization of KMeans clustering.
-
-🔧 **Installation**
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/anime-recommendation-system.git
-   cd anime-recommendation-system
